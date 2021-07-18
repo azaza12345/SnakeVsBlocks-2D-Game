@@ -52,14 +52,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\SnakeHead.cs" />
-     <Compile Include="Assets\Scripts\TailGenerator.cs" />
-     <Compile Include="Assets\Scripts\Segment.cs" />
-     <Compile Include="Assets\Scripts\Snake.cs" />
-     <Compile Include="Assets\Scripts\Input.cs" />
-     <Compile Include="Assets\Scripts\SnakeTracker.cs" />
-     <Compile Include="Assets\Scripts\Block.cs" />
      <Compile Include="Assets\Scripts\BlockView.cs" />
+     <Compile Include="Assets\Scripts\SnakeHead.cs" />
+     <Compile Include="Assets\Scripts\Segment.cs" />
+     <Compile Include="Assets\Scripts\TailGenerator.cs" />
+     <Compile Include="Assets\Scripts\Block.cs" />
+     <Compile Include="Assets\Scripts\SnakeTracker.cs" />
+     <Compile Include="Assets\Scripts\Input.cs" />
+     <Compile Include="Assets\Scripts\Snake.cs" />
+     <Compile Include="Assets\Scripts\SnakeSizeView.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
