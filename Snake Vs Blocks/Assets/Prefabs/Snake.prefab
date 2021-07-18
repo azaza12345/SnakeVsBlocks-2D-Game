@@ -310,7 +310,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: 0be361883d541e74cbaa31bd5a4928a9, type: 3}
-  m_Color: {r: 0.9245283, g: 0.4855227, b: 0.4855227, a: 1}
+  m_Color: {r: 0.5647059, g: 0.74509805, b: 0.42745098, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -418,6 +418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _head: {fileID: 1178357005}
   _speed: 4
+  _tailSize: 100
   _tailSpringiness: 12
 --- !u!114 &38634813
 MonoBehaviour:
@@ -431,7 +432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 338f1bad39e20aa45a9c4caeb578b052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _tailSize: 3
   _segmentTemplate: {fileID: 8069999697865744867, guid: 114c7bc365b47fa46824dfc56b8972fa, type: 3}
 --- !u!114 &38634815
 MonoBehaviour:
