@@ -52,21 +52,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Spawn\Spawner.cs" />
      <Compile Include="Assets\Scripts\Block\BlockView.cs" />
      <Compile Include="Assets\Scripts\Snake\SnakeHead.cs" />
      <Compile Include="Assets\Scripts\Snake\Segment.cs" />
+     <Compile Include="Assets\Scripts\Spawn\BlockSpawnPoint.cs" />
+     <Compile Include="Assets\Scripts\Snake\SnakeSizeView.cs" />
      <Compile Include="Assets\Scripts\Snake\TailGenerator.cs" />
      <Compile Include="Assets\Scripts\Block\Block.cs" />
      <Compile Include="Assets\Scripts\Snake\SnakeTracker.cs" />
-     <Compile Include="Assets\Scripts\Snake\Input.cs" />
-     <Compile Include="Assets\Scripts\Snake\Snake.cs" />
-     <Compile Include="Assets\Scripts\Snake\SnakeSizeView.cs" />
-     <Compile Include="Assets\Scripts\Bonus\Bonus.cs" />
-     <Compile Include="Assets\Scripts\Spawn\Spawner.cs" />
-     <Compile Include="Assets\Scripts\Spawn\SpawnPoint.cs" />
      <Compile Include="Assets\Scripts\Block\Wall.cs" />
-     <Compile Include="Assets\Scripts\Spawn\BlockSpawnPoint.cs" />
+     <Compile Include="Assets\Scripts\Spawn\SpawnPoint.cs" />
+     <Compile Include="Assets\Scripts\Snake\Input.cs" />
+     <Compile Include="Assets\Scripts\Bonus\Bonus.cs" />
+     <Compile Include="Assets\Scripts\Snake\Snake.cs" />
      <Compile Include="Assets\Scripts\Spawn\WallSpawnPoint.cs" />
+     <Compile Include="Assets\CameraResolution.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
